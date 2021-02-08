@@ -3,7 +3,7 @@ import { Form, Col, FormCheck } from 'react-bootstrap'
 function SearchForm({ params, onParamChange }) {
   return (
     <Form className="mb-4" >
-      <Form.Row classname="align-items-end">
+      <Form.Row className="align-items-end">
         <Form.Group as={Col}>
           <Form.Label>Description</Form.Label>
           <Form.Control onChange={onParamChange} value={params.description} name="desctiption" type="text"/>
